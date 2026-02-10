@@ -40,29 +40,44 @@ export default function Projects() {
 
   const projects = [
     {
-      Name: '1Pass',
-      Description: 'A password manager that uses AES encryption to store passwords securely',
-      Link: 'https://github.com/ShashankSreep/PasswordManager',
+      Name: 'Playback',
+      Description: 'San Francisco 49ers playcalling engine that recommends offensive concepts using game‑context analytics and model‑based outcomes',
+      Link: 'https://github.com/siddharthsiva/playback',
     },
     {
-      Name: 'Statsify',
-      Description: 'Application that analyzes Spotify listening data and provides a "rewind" like feature',
-      Link: 'https://github.com/ShashankSreep/statsify',
+      Name: 'Mini-Snowflake',
+      Description: 'High‑performance columnar analytical database engine in modern C++20 with advanced storage, query optimization, and a production‑ready HTTP API.',
+      Link: 'https://github.com/siddharthsiva/mini-snowflake',
     },
     {
-      Name: 'Verbatim',
-      Description: 'Application that allows users to learn and practice the English Language through speech and writing practice',
-      Link: 'https://github.com/ShashankSreep/EnglishPractice',
+      Name: 'Virtual Me',
+      Description: 'Full‑stack personal behavior analytics platform that tracks multi‑source events and delivers interactive productivity insights via a FastAPI backend and React/TypeScript dashboard',
+      Link: 'https://github.com/siddharthsiva/Virtual-Me',
     },
     {
-      Name: 'My Favorite Albums',
-      Description: 'Technical documentation portfolio providing comprehensive details about the application',
-      Link: 'https://github.com/ShashankSreep',
+      Name: 'Rate My Dining Hall',
+      Description: 'Student‑run UCSD dining hall review frontend built with React, TypeScript, and Redux for browsing halls, viewing reviews, and submitting ratings',
+      Link: 'https://github.com/siddharthsiva/ratemydininghall',
     },
     {
-      Name: 'Racial Bias in Named Entity Recognition',
-      Description: 'Research project analyzing racial bias in Named Entity Recognition',
-      Link: 'https://github.com/LucilleN/Racial-Bias-in-Legal-NER',
+      Name: 'Dorm Dash',
+      Description: 'Campus micro‑delivery platform for UCSD students with a React Native frontend and FastAPI/PostgreSQL backend, featuring requests, gamification, and leaderboards',
+      Link: 'https://github.com/siddharthsiva/dormdash',
+    },
+    {
+      Name: 'Climate Lens',
+      Description: 'Interactive R Shiny dashboard that explores climate‑change indicators with real‑world datasets and rich visualizations.',
+      Link: 'https://github.com/siddharthsiva/climate-lens',
+    },
+    {
+      Name: 'SkillForge',
+      Description: 'Gamified learning platform with animated skill trees, XP progression, and AI‑generated quests built with React Native, Firebase, and FastAPI/LangChain',
+      Link: 'https://github.com/siddharthsiva/skillforge',
+    },
+    {
+      Name: 'Favourite Albums',
+      Description: 'R Shiny app for exploring and analyzing yearly rankings of favorite music albums using CSV‑based datasets',
+      Link: 'https://github.com/siddharthsiva/favouritealbums',
     },
   ];
 
