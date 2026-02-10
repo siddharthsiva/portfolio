@@ -2,13 +2,13 @@ export function EduCard() {
     return (
         <div className="bg-gray-800 p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-700 flex flex-col gap-3">
             <h3 className="text-xl text-white">
-                University of Washington
+                University of California, San Diego
             </h3>
             <p className="text-gray-300 text-base text-left">
                 B.S. Computer Science
             </p>
             <p className="text-gray-300 text-base text-left">
-                Seattle, WA (2022 - Present)
+                La Jolla, CA (2024 - Present)
             </p>
 
             <a
@@ -36,7 +36,7 @@ export function EduCard() {
             </a>
 
             <a
-                href="https://www.cs.washington.edu/"
+                href="https://cse.ucsd.edu/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center text-gray-400 hover:text-green-400 transition-colors duration-200 text-sm font-medium"
