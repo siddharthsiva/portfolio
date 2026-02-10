@@ -66,24 +66,6 @@ export default function Projects() {
     },
   ];
 
-  const currentProjects = [
-    {
-      Name: 'F1-Live',
-      Description: 'Application that provides real-time race updates and race conditions for Formula 1',
-      Link: 'https://github.com/ShashankSreep',
-    },
-    {
-      Name: 'Anki But Better',
-      Description: 'Flash card application with built-in spaced repitition and modern UI',
-      Link: 'https://github.com/ShashankSreep',
-    },
-    {
-      Name: 'Daily Journal',
-      Description: 'Application that allows users to track daily thoughts all in one place',
-      Link: 'https://github.com/ShashankSreep',
-    },
-  ];
-
   return (
     <div className="min-h-screen bg-gray-800 flex flex-col">
       <Navbar />
@@ -116,24 +98,6 @@ export default function Projects() {
             <h2 className="text-2xl text-white mb-6">Projects</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {projects.map((project, index) => (
-                <ProjectCard
-                  key={index}
-                  Name={project.Name}
-                  Description={project.Description}
-                  Link={project.Link}
-                />
-              ))}
-            </div>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7 }}
-          >
-            <h2 className="text-xl text-white mb-6">Current Projects</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {currentProjects.map((project, index) => (
                 <ProjectCard
                   key={index}
                   Name={project.Name}

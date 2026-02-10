@@ -5,49 +5,39 @@ import { CoreClasses } from './Cards/coreClasses';
 
 const coreClasses = [
     {
-        courseNum: 'CSE 421',
-        courseDescription: 'Algorithms',
+        courseNum: 'CSE 29',
+        courseDescription: 'Systems Programming',
         Link: 'https://courses.cs.washington.edu/courses/cse421/',
         favorite: true,
     },
     {
-        courseNum: 'CSE 451',
-        courseDescription: 'Operating Systems',
+        courseNum: 'CSE 12',
+        courseDescription: 'Data Structures and Object-Oriented Programming',
         Link: 'https://courses.cs.washington.edu/courses/cse451/',
         favorite: true,
     },
     {
-        courseNum: 'CSE 332',
-        courseDescription: 'Data Structures and Parallelism',
+        courseNum: 'CSE 11',
+        courseDescription: 'Introduction to OOP',
         Link: 'https://courses.cs.washington.edu/courses/cse332/',
     }, 
     {
-        courseNum: 'CSE 461', 
-        courseDescription: 'Computer Networks',
+        courseNum: 'CSE 20', 
+        courseDescription: 'Discrte Mathematics',
         Link: 'https://courses.cs.washington.edu/courses/cse461/',
         favorite: true,
     },
     {
-        courseNum: 'CSE 473', 
-        courseDescription: 'Artificial Intelligence',
+        courseNum: 'CSE 100', 
+        courseDescription: 'Advanced Data Structures',
         Link: 'https://courses.cs.washington.edu/courses/cse473/',
     }, 
     {
-        courseNum: 'CSE 333', 
-        courseDescription: 'Systems Programming',
+        courseNum: 'CSE 101', 
+        courseDescription: 'Design and Analysis of Algorithms',
         Link: 'https://courses.cs.washington.edu/courses/cse333/',
         favorite: true,
     }, 
-    {
-        courseNum: 'CSE 344', 
-        courseDescription: 'Database Management Systems',
-        Link: 'https://courses.cs.washington.edu/courses/cse344/',
-    }, 
-    {
-        courseNum: 'CSE 351', 
-        courseDescription: 'Hardware/Software Interface',
-        Link: 'https://courses.cs.washington.edu/courses/cse351/',
-    },
 
 ];
 
