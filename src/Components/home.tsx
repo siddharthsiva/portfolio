@@ -10,19 +10,19 @@ export default function Homepage() {
     {
       name: "GitHub",
       icon: Github,
-      href: "https://github.com/ShashankSreep",
+      href: "https://github.com/siddharthsiva?tab=repositories",
       hoverColor: "hover:text-gray-300",
     },
     {
       name: "LinkedIn",
       icon: Linkedin,
-      href: "https://www.linkedin.com/in/shashank-sreepathi/",
+      href: "https://www.linkedin.com/in/siddharth-sivalanka/",
       hoverColor: "hover:text-blue-400",
     },
     {
       name: "Email",
       icon: Mail,
-      href: "mailto:shashanksreepathi3@gmail.com",
+      href: "mailto:siddharthsivalanka@gmail.com",
       hoverColor: "hover:text-green-400",
     },
   ];
@@ -31,7 +31,7 @@ export default function Homepage() {
     "Software Engineer",
     "Student",
     "Builder",
-    "Coffee Addict",
+    "Sports Enthusiast",
   ];
 
   useEffect(() => {
@@ -55,7 +55,7 @@ export default function Homepage() {
             transition={{ duration: 0.8, ease: [0.4, 0, 0.2, 1] }}
           >
             <h1 className="text-xl md:text-6xl text-white font-light tracking-tight">
-              Shashank Sreepathi
+              Siddharth Sivalanka
             </h1>
 
             <div className="h-10 relative">
